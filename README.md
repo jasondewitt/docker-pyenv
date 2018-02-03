@@ -7,8 +7,9 @@ It's based on [alpine:3.7](https://github.com/docker-library/official-images/blo
 
 ## Supported Python versions
 
-Basically every target that is supported by pyenv itself, which can be
-checked with `pyenv install --list`. Note that building this was only tested with CPython 2.7.x and 3.6.x -- 2.6.9 does not build, but [has been officially retired and shouldn't be used](https://www.python.org/download/releases/2.6.9/).
+CPython `2.7.x` and `3.4.x` - `3.6.x` should work. Other implementions
+were not tested. See `pyenv install --list` for a list. CPython `<2.7`
+and `3.4` do not build on this image.
 
 ## Example
 
