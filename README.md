@@ -8,8 +8,8 @@ It's based on [alpine:3.7](https://github.com/docker-library/official-images/blo
 ## Supported Python versions
 
 CPython `2.7.x` and `3.4.x` - `3.6.x` should work. Other implementions
-were not tested. See `pyenv install --list` for a list. CPython `<2.7`
-and `3.4` do not build on this image.
+were not tested. See `pyenv install --list` for a list. CPython
+versions previous to `2.7` and `3.4` do not build on this image.
 
 ## Example
 
