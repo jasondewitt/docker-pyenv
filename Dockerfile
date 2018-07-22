@@ -1,5 +1,5 @@
 # https://github.com/docker-library/python/blob/master/Dockerfile-alpine.template
-FROM alpine:3.7
+FROM alpine:3.8
 
 ARG HOME="/root"
 ARG PROFILE="$HOME/.profile"
