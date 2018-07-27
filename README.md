@@ -1,7 +1,7 @@
 # docker-pyenv
 
 Docker image optimized for testing python projects, e.g. on circleci.
-It's based on [alpine:3.7](https://github.com/docker-library/official-images/blob/master/library/alpine) and installs everything required to install Python using [pyenv](https://github.com/pyenv/pyenv).
+It's based on [alpine:3.8](https://github.com/docker-library/official-images/blob/master/library/alpine) and installs everything required to install Python using [pyenv](https://github.com/pyenv/pyenv).
 
 [This image is available on Docker Hub](https://hub.docker.com/r/kaikuehne/pyenv). Note that this images size is about 80 MB compressed.
 
